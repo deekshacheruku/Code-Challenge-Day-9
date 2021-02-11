@@ -9,6 +9,10 @@
 // Write the function to find the areaOrPerimeter obtained.
 const areaOrPerimeter = function(l , w) {
       //your code here
+      if(l == w)
+        return l*w
+      else
+        return (l+w)*2
     
   }
 
